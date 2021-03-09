@@ -13,9 +13,13 @@ For deployment : The above command without --train
 
 example : 
 with feedback 
+
 python3.6 ROM_gen.py --win 7 --modes 5 --epochs 2000 --fb --model lstm --train
+
 python3.6 ROM_gen.py --win 7 --modes 5 --epochs 2000 --fb --model lstm
 
 without feedback
+
 python3.6 ROM_gen.py --win 7 --modes 5 --epochs 2000 --model lstm --train
+
 python3.6 ROM_gen.py --win 7 --modes 5 --epochs 2000 --model lstm
